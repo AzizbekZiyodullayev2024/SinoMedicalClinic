@@ -1,0 +1,47 @@
+services:
+    sino_web:
+        container_name: sino_web
+        image: nginx:alpine
+        ports:
+            - "8070:80"
+        volumes:
+            - ./:/var/www
+            - ./nginx.conf:/etc/nginx/conf.d/default.conf
+        depends_on:
+            - sino_app
+        networks:
+            - sino_network
+    
+    sino_app:
+        container_name: sino_app
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        depends_on:
+            - sino_db
+        volumes:
+            - ./:/var/www
+        networks:
+            - sino_network
+        ports:
+            - "9080:9010"
+    
+    sino_db:
+        image: mysql
+        container_name: sino_db
+        restart: unless-stopped
+        environment:
+            MYSQL_DATABASE: ${DB_DATABASE}
+            MYSQL_PASSWORD: ${DB_PASSWORD}
+            MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+        volumes:
+            - sino_database:/var/lib/mysql
+        networks:
+            - sino_network
+        expose:
+            - 3344
+networks:
+    sino_network:
+        driver: bridge
+volumes:
+    sino_database:

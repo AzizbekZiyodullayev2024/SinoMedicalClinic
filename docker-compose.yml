@@ -24,7 +24,7 @@ services:
         networks:
             - sino_network
         ports:
-            - "9080:9010"
+            - "9010:9000"
     
     sino_db:
         image: mysql

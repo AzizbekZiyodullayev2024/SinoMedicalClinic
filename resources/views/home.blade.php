@@ -1,4 +1,4 @@
-<!Doctype html>
+<!doctype html>
 <html class="no-js" lang="zxx">
     <head>
         <!-- Meta Tags -->
@@ -10,39 +10,41 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<!-- Title -->
-        <title>SinoMedicalClinic.</title>
+        <title>SinoMedicalCilinic</title>
 		
 		<!-- Favicon -->
-        <link rel="icon" href="{{ asset('img/favicon.png') }}">
+        <link rel="icon" href="img/favicon.png">
 		
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<!-- Nice Select CSS -->
-		<link rel="stylesheet" href="{{ asset('css/nice-select.css') }}">
+		<link rel="stylesheet" href="css/nice-select.css">
 		<!-- Font Awesome CSS -->
-        <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
 		<!-- icofont CSS -->
-        <link rel="stylesheet" href="{{ asset('css/icofont.css') }}">
+        <link rel="stylesheet" href="css/icofont.css">
 		<!-- Slicknav -->
-		<link rel="stylesheet" href="{{ asset('css/slicknav.min.css') }}">
+		<link rel="stylesheet" href="css/slicknav.min.css">
 		<!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="{{ asset('css/owl-carousel.css') }}">
+        <link rel="stylesheet" href="css/owl-carousel.css">
 		<!-- Datepicker CSS -->
-		<link rel="stylesheet" href="{{ asset('css/datepicker.css') }}">
+		<link rel="stylesheet" href="css/datepicker.css">
 		<!-- Animate CSS -->
-        <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
+        <link rel="stylesheet" href="css/animate.min.css">
 		<!-- Magnific Popup CSS -->
-        <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+        <link rel="stylesheet" href="css/magnific-popup.css">
 		
 		<!-- Medipro CSS -->
-        <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
-        <!-- <link rel="stylesheet" href="{{ asset('style.css') }}"> -->
-        <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+		
     </head>
     <body>
+	
 		<!-- Preloader -->
         <div class="preloader">
             <div class="loader">
@@ -58,6 +60,7 @@
             </div>
         </div>
         <!-- End Preloader -->
+		
 		<!-- Get Pro Button -->
 		<ul class="pro-features">
 			<a class="get-pro" href="#">Get Pro</a>
@@ -83,17 +86,17 @@
 						<div class="col-lg-6 col-md-5 col-12">
 							<!-- Contact -->
 							<ul class="top-link">
-								<li><a href="#">About</a></li>
-								<li><a href="#">Doctors</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="#">Biz haqimizda</a></li>
+								<li><a href="#">Shifokorlar</a></li>
+								<li><a href="#">Kontaktlar</a></li>
 								<li><a href="#">FAQ</a></li>
-							</ul>
+							</ul>	
 							<!-- End Contact -->
 						</div>
 						<div class="col-lg-6 col-md-7 col-12">
 							<!-- Top Contact -->
 							<ul class="top-contact">
-								<li><i class="fa fa-phone"></i>+880 1234 56789</li>
+								<li><i class="fa fa-phone"></i>+998(55) 516-72-47</li>
 								<li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">support@yourmail.com</a></li>
 							</ul>
 							<!-- End Top Contact -->
@@ -110,7 +113,7 @@
 							<div class="col-lg-3 col-md-3 col-12">
 								<!-- Start Logo -->
 								<div class="logo">
-									<a href="index.html"><img src="{{asset('img/logo.png') }}" alt="#"></a>
+									<a href="index.html"><img src="img/logo.png" alt="#"></a>
 								</div>
 								<!-- End Logo -->
 								<!-- Mobile Nav -->
@@ -122,24 +125,24 @@
 								<div class="main-menu">
 									<nav class="navigation">
 										<ul class="nav menu">
-											<li class="active"><a href="#">Home <i class="icofont-rounded-down"></i></a>
+											<li class="active"><a href="#">Biz haqimizda<i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
 													<li><a href="index.html">Home Page 1</a></li>
 												</ul>
 											</li>
-											<li><a href="#">Doctos </a></li>
-											<li><a href="#">Services </a></li>
-											<li><a href="#">Pages <i class="icofont-rounded-down"></i></a>
+											<li><a href="#">Shifokorlar </a></li>
+											<li><a href="#">Servislar </a></li>
+											<li><a href="#">Sahifalar <i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
 													<li><a href="404.html">404 Error</a></li>
 												</ul>
 											</li>
-											<li><a href="#">Blogs <i class="icofont-rounded-down"></i></a>
+											<li><a href="#">Bloglar <i class="icofont-rounded-down"></i></a>
 												<ul class="dropdown">
-													<li><a href="blog-single.html">Blog Details</a></li>
+													<li><a href="blog-single.html">Bloglar </a></li>
 												</ul>
 											</li>
-											<li><a href="contact.html">Contact Us</a></li>
+											<li><a href="/contact_us">Biz bilan bo'g'laning</a></li>
 										</ul>
 									</nav>
 								</div>
@@ -267,11 +270,9 @@
 										<span>Donec luctus</span>
 										<h4>Opening Hours</h4>
 										<ul class="time-sidual">
-											<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
-											<li class="day">Saturday <span>9.00-18.30</span></li>
-											<li class="day">Monday - Thusday <span>9.00-15.00</span></li>
+											<li class="day">Dushanba - Juma <span>9.00-18.00</span></li>
 										</ul>
-										<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+										<a href="#">BATAFSIL MA'LUMOT<i class="fa fa-long-arrow-right"></i></a>
 									</div>
 								</div>
 							</div>
@@ -288,7 +289,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>We Are Always Ready to Help You & Your Family</h2>
+							<h2>Biz sizga va oilangizga yordam berishga doim tayyormiz</h2>
 							<img src="img/section-img.png" alt="#">
 							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
 						</div>
@@ -300,8 +301,8 @@
 						<div class="single-features">
 							<div class="signle-icon">
 								<i class="icofont icofont-ambulance-cross"></i>
-							</div>
-							<h3>Emergency Help</h3>
+							</div><h3>Favqulodda yordam
+							</h3>
 							<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
 						</div>
 						<!-- End Single features -->
@@ -312,7 +313,7 @@
 							<div class="signle-icon">
 								<i class="icofont icofont-medical-sign-alt"></i>
 							</div>
-							<h3>Enriched Pharmecy</h3>
+							<h3>Enrcihed Pharmecy</h3>
 							<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
 						</div>
 						<!-- End Single features -->
@@ -323,7 +324,7 @@
 							<div class="signle-icon">
 								<i class="icofont icofont-stethoscope"></i>
 							</div>
-							<h3>Medical Treatment</h3>
+							<h3>Tibbiy davolash</h3>
 							<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
 						</div>
 						<!-- End Single features -->
@@ -705,7 +706,7 @@
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>Keep up with Our Most Recent Medical News.</h2>
-							<img src="{{ asset('img/section-img.png') }}" alt="#">
+							<img src="img/section-img.png" alt="#">
 							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
 						</div>
 					</div>
@@ -811,7 +812,7 @@
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>We Are Always Ready to Help You. Book An Appointment</h2>
-							<img src="{{ asset('img/section-img.png') }}" alt="#">
+							<img src="img/section-img.png" alt="#">
 							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
 						</div>
 					</div>
@@ -1011,45 +1012,45 @@
 		</footer>
 		<!--/ End Footer Area -->
 		
-		<!-- jquery Min JS -->
-        <script src="{{ asset('js/jquery.min.js')}}"></script>
+		<script src="{{ asset('js/jquery.min.js') }}"></script>
 		<!-- jquery Migrate JS -->
-		<script src="{{ asset('js/jquery-migrate-3.0.0.js')}}"></script>
+		<script src="{{ asset('js/jquery-migrate-3.0.0.js') }}"></script>
 		<!-- jquery Ui JS -->
-		<script src="{{ asset('js/jquery-ui.min.js')}}"></script>
+		<script src="{{ asset('js/jquery-ui.min.js') }}"></script>
 		<!-- Easing JS -->
-        <script src="{{ asset('js/easing.js')}}"></script>
+		<script src="{{ asset('js/easing.js') }}"></script>
 		<!-- Color JS -->
-		<script src="{{ asset('js/colors.js')}}"></script>
+		<script src="{{ asset('js/colors.js') }}"></script>
 		<!-- Popper JS -->
-		<script src="{{ asset('js/popper.min.js')}}"></script>
+		<script src="{{ asset('js/popper.min.js') }}"></script>
 		<!-- Bootstrap Datepicker JS -->
-		<script src="{{ asset('js/bootstrap-datepicker.js')}}"></script>
+		<script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
 		<!-- Jquery Nav JS -->
-        <script src="{{ asset('js/jquery.nav.js')}}"></script>
+		<script src="{{ asset('js/jquery.nav.js') }}"></script>
 		<!-- Slicknav JS -->
-		<script src="{{ asset('js/slicknav.min.js')}}"></script>
+		<script src="{{ asset('js/slicknav.min.js') }}"></script>
 		<!-- ScrollUp JS -->
-        <script src="{{ asset('js/jquery.scrollUp.min.js')}}"></script>
+		<script src="{{ asset('js/jquery.scrollUp.min.js') }}"></script>
 		<!-- Niceselect JS -->
-		<script src="{{ asset('js/niceselect.js')}}"></script>
+		<script src="{{ asset('js/niceselect.js') }}"></script>
 		<!-- Tilt Jquery JS -->
-		<script src="{{ asset('js/tilt.jquery.min.js')}}"></script>
+		<script src="{{ asset('js/tilt.jquery.min.js') }}"></script>
 		<!-- Owl Carousel JS -->
-        <script src="{{ asset('js/owl-carousel.js')}}"></script>
+		<script src="{{ asset('js/owl-carousel.js') }}"></script>
 		<!-- counterup JS -->
-		<script src="{{ asset('js/jquery.counterup.min.js')}}"></script>
+		<script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
 		<!-- Steller JS -->
-		<script src="{{ asset('js/steller.js')}}"></script>
+		<script src="{{ asset('js/steller.js') }}"></script>
 		<!-- Wow JS -->
-		<script src="{{ asset('js/wow.min.js')}}"></script>
+		<script src="{{ asset('js/wow.min.js') }}"></script>
 		<!-- Magnific Popup JS -->
-		<script src="{{ asset('js/jquery.magnific-popup.min.js')}}"></script>
+		<script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
 		<!-- Counter Up CDN JS -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js')}}"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 		<!-- Bootstrap JS -->
-		<script src="{{ asset('js/bootstrap.min.js')}}"></script>
+		<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 		<!-- Main JS -->
-		<script src="{{ asset('js/main.js')}}"></script>
+		<script src="{{ asset('js/main.js') }}"></script>
+
     </body>
 </html>

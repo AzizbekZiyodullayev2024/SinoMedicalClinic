@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html class="no-js" lang="zxx">
     <head>
         <!-- Meta Tags -->
@@ -41,10 +41,8 @@
         <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
         <!-- <link rel="stylesheet" href="{{ asset('style.css') }}"> -->
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
-		
     </head>
     <body>
-	
 		<!-- Preloader -->
         <div class="preloader">
             <div class="loader">
@@ -60,7 +58,6 @@
             </div>
         </div>
         <!-- End Preloader -->
-		
 		<!-- Get Pro Button -->
 		<ul class="pro-features">
 			<a class="get-pro" href="#">Get Pro</a>

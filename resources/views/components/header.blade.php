@@ -26,9 +26,9 @@
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <div class="owl-carousel header-carousel">
                     <div class="owl-carousel-item position-relative">
-                        <img class="img-fluid" src="img/word.jpg" alt="">
+                        <img class="img-fluid" src="img/carousel-1.jpg" alt="">
                         <div class="owl-carousel-text">
-                            <h1 class="display-1 text-blue mb-0" style="color:rgb(255, 255, 255)"></h1>
+                            <h1 class="display-1 text-blue mb-0" style="color:rgb(255, 255, 255)">Kardialogiya</h1>
                         </div>
                     </div>
                     <div class="owl-carousel-item position-relative">

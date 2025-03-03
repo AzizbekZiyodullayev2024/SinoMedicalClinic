@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
         <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
         <h1 class="m-0 text-primary">
-  <img src="https://img.freepik.com/free-vector/hospital-logo-design-vector-medical-cross_53876-136743.jpg?t=st=1740655674~exp=1740659274~hmac=bc43cc5a00c649ae9e3c691fdc8ad743666c5335db10383212bb29d4fb4e00fd&w=740" alt="Logo" class="me-3" style="width: 40px; height: auto;">
+  <img src="img/logo.jpg" alt="Logo" class="me-3" style="width: 40px; height: auto;">
   Sino Professional Medical
 </h1>
 

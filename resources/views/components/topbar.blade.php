@@ -7,7 +7,7 @@
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <small class="far fa-clock text-primary me-2"></small>
-                    <small>Dushanba - Shanba : 09.00 - 18:00</small>
+                    <small>Dushanba - Shanba : 08.00 - 22:00</small>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">

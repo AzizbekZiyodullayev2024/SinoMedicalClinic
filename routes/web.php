@@ -33,3 +33,14 @@ Route::get('/testemonial', function () {
 Route::get('/appointment', function () {
     return view('appointment');
 });
+
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+
+Route::get('/lang/{locale}', function ($locale) {
+    if (in_array($locale, ['uz', 'ru'])) {
+        Session::put('locale', $locale);
+        App::setLocale($locale);
+    }
+    return redirect()->back();
+})->name('changeLang');

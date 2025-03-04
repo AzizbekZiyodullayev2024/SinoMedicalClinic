@@ -7,12 +7,13 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
 
-class LocaleMiddleware
+class LanguageMiddleware
 {
     public function handle(Request $request, Closure $next)
     {
-        $locale = Session::get('locale', 'uz'); // Standart til o‘zbek
-        App::setLocale($locale);
+        if (Session::has('locale')) {
+            App::setLocale(Session::get('locale'));
+        }
 
         return $next($request);
     }

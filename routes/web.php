@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Redirect;
+
 
 Route::get('/', function () {
     return view('index');
@@ -34,13 +38,10 @@ Route::get('/appointment', function () {
     return view('appointment');
 });
 
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Session;
-
-Route::get('/lang/{locale}', function ($locale) {
-    if (in_array($locale, ['uz', 'ru'])) {
+Route::get('lang/{locale}', function ($locale) {
+    if (in_array($locale, ['en', 'ru', 'uz'])) {
         Session::put('locale', $locale);
         App::setLocale($locale);
     }
-    return redirect()->back();
-})->name('changeLang');
+    return Redirect::back();
+})->name('lang.switch');

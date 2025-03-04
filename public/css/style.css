@@ -24,6 +24,23 @@
     bottom: 45px;
     z-index: 99;
 }
+/* Bootstrap dropdown */
+.dropdown-menu {
+    position: absolute !important; /* Dropdownning pozitsiyasi */
+    z-index: 1050 !important;      /* Z-indexni belgilash */
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border: solid transparent;
+    border-width: 0 0.25em 0.25em;
+    border-color: currentColor;
+    border-top-color: transparent;
+    transform: rotate(45deg);
+}
 
 
 /*** Spinner ***/
@@ -459,7 +476,6 @@
 .testimonial-carousel .owl-nav .owl-next:hover {
     color: var(--dark);
 }
-
 
 /*** Footer ***/
 .footer .btn.btn-social {

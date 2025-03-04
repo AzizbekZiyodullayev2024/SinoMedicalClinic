@@ -25,10 +25,9 @@ class Kernel extends HttpKernel
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            \App\Http\Middleware\LocaleMiddleware::class,
 
             // 📌 Tilni o'zgartirish uchun middleware qo'shildi
-            \App\Http\Middleware\LocaleMiddleware::class,
+            \App\Http\Middleware\LanguageMiddleware::class,
         ],
 
         'api' => [

@@ -40,7 +40,7 @@
         </div>
     </div>
     <!-- Spinner End -->
-
+     
     <!-- Topbar Start -->
     <x-topbar></x-topbar>
     <!-- Topbar End -->
@@ -61,7 +61,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block border rounded-pill py-1 px-4">Xizmatlar</p>
+                <p class="d-inline-block border rounded-pill py-1 px-4">{{ __('messages.services') }}</p>
                 <h1>Salomatlikni saqlash yechimlari</h1>
             </div>
             <div class="row g-4">

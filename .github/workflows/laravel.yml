@@ -32,6 +32,7 @@ jobs:
         DB_CONNECTION: mysql
         DB_DATABASE: database/database.sqlite
       run: php artisan test
+      
   deploy:
     needs: laravel-tests
     name: Deploy to Google Cloud

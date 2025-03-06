@@ -29,12 +29,12 @@ jobs:
         touch database/database.sqlite
     - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
       env:
-        DB_CONNECTION: sqlite
+        DB_CONNECTION: mysql
         DB_DATABASE: database/database.sqlite
       run: php artisan test
   deploy:
     needs: laravel-tests
-    name: Deploy to AWS (EC2)
+    name: Deploy to Google Cloud
     runs-on: ubuntu-latest
     steps:
       - name: executing remote ssh commands using private key
